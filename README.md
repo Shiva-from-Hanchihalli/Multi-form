@@ -23,10 +23,15 @@ export default defineConfig({
   "deploy": "gh-pages -d dist"  => add this in ur package.json
 }
 
+after this do npm i -f
 
 install this
 npm install --save-dev gh-pages
 
+then push(vite changes) ur code to repo
+git add vite.config.ts
+git commit -m "Add Vite config for GitHub Pages"
+git push
 
 Build & deploy:
 npm run build => ur using typescript clear all wranings and errors otherwise it wont allow u to build 
