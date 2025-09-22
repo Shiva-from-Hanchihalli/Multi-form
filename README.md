@@ -29,7 +29,7 @@ install this
 npm install --save-dev gh-pages
 
 then push(vite changes) ur code to repo
-git add vite.config.ts
+git add vite.config.ts(using javascript vite.config.js)
 git commit -m "Add Vite config for GitHub Pages"
 git push
 
